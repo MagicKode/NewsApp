@@ -11,6 +11,10 @@
             android:id="@+id/action_headlinesFragment_to_articleFragment"
             app:destination="@id/articleFragment"/>
 
+        <argument
+            android:name="article"
+            app:argType="ru.myapp.newsapp.model.Article"/>
+
     </fragment>
     <fragment
         android:id="@+id/favouritesFragment"
